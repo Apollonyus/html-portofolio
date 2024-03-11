@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: slateblue;
+            padding: 20px;
+            box-sizing: border-box;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .contact-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        p.address {
+            margin-top: 20px;
+            font-style: italic;
+        }
+        p.address span {
+            font-weight: bold;
+        }
+        .address-icon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-info">
+        <h1>Contact Me</h1>
+        <p>
+            <span class="address-icon">📞</span> Tel: <a href="tel:+40725642246">+40725642246</a>
+        </p>
+        <p>
+            <span class="address-icon">📧</span> Email: <a href="mailto:costache.stefan.florin@gmail.com">costache.stefan.florin@gmail.com</a>
+        </p>
+        <p class="address">
+            <span class="address-icon">🏠</span> Address:<br>
+            123 North Street,<br>
+            Some City,<br>
+            Some Country
+        </p>
+    </div>
+</body>
+</html>
